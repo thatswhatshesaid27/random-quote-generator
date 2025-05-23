@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Random Quotes Generator</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="asssets/tp_logo.png" alt="Logo" class="logo" />
+      <button>All Quotes</button>
+    </nav>
+    <div class="container">
+      <h1>Let's start generating Quotes</h1>
+
+      <div class="card-container">
+        <div class="card">
+          <h2 id="quote">Stay hungry,Stay foolish</h2>
+          <p id="author">-Steve Jobs</p>
+        </div>
+      </div>
+      <br />
+      <button id="generate" onclick="generate()">Generate Quote</button>
+      <br />
+      <label>New Quote</label>
+      <br />
+      <input type="text" placeholder="Enter a quote" id="input-quote" />
+      <br />
+      <label>Name</label>
+
+      <div class="last-div">
+        <input type="text" placeholder="name" id="quotationist" />
+        <button id="add_quote" onclick="addQuote()">Add Quote</button>
+      </div>
+    </div>
+  </body>
+</html>

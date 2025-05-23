@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR STYLING */
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  background-color: rgba(12, 36, 74, 1);
+  color: white;
+  padding: 10px 20px;
+}
+
+/* LOGO STYLING */
+nav .logo {
+  max-width: 250px;
+  height: auto;
+}
+
+/* BUTTON STYLING */
+nav button {
+  color: black;
+  background-color: rgba(243, 189, 0, 1);
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container{
+    box-sizing: border-box;
+    height: 817px;
+    /* gap: 20px; */
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;  /* background-color: blue; */
+}
+
+.container h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.card-container{
+    box-sizing: border-box;
+    max-height: 358px;
+    box-shadow: 0px 8px 32px 0px rgba(28, 28, 30, 0.16);
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.card{
+    box-sizing: border-box;
+    padding: 20px;
+    max-height: 278px ;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 20px;
+}
+
+
+.card h2{
+ text-align: center;
+ font-size: 2rem;
+ padding: 50px;
+}
+
+.card p{
+    font-size: 1rem;
+    text-align: end;
+    padding: 30px;
+}
+
+.container #generate{
+    background-color: var(--yellow, rgba(243, 189, 0, 1));
+    height: auto;
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.container label{
+    font-size: 1.4rem;
+}
+
+.container #input-quote{
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.container #input-quote::placeholder{
+    font-size: 1.2em; 
+    padding: 20px;
+   
+}
+
+.last-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#quotationist{
+   height: 3rem;
+   width: 584px;
+   border-radius: 10px;
+}
+
+#quotationist::placeholder{
+    font-size: 1.2em; 
+    padding: 20px;
+   
+}
+
+#add_quote{
+    background-color: var(--yellow, rgba(243, 189, 0, 1));
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+/* MEDIA QUERY FOR MOBILE */
+@media (max-width: 768px) {
+  nav.navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  nav .logo {
+    margin-bottom: 10px;
+  }
+
+  .card p{
+    font-size: 0.7rem;
+    padding :10px;
+  }
+
+  .card h2{
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  #quotationist{
+   height: 2rem;
+   width: 60%;
+  
+}
+
+#add_quote{
+    background-color: var(--yellow, rgba(243, 189, 0, 1));
+    padding: 10px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.card-container{padding: 20px;}
+
+.card{
+  padding: 20px;
+}
+
+
+}
