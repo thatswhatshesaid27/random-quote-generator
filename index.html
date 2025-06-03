@@ -10,7 +10,7 @@
   <body>
     <nav class="navbar">
       <img src="asssets/tp_logo.png" alt="Logo" class="logo" />
-      <button>All Quotes</button>
+      <button onclick="showAllQuotes()">All Quotes</button>
     </nav>
     <div class="container">
       <h1>Let's start generating Quotes</h1>
@@ -26,12 +26,22 @@
       <br />
       <label>New Quote</label>
       <br />
-      <input type="text" placeholder="Enter a quote" id="input-quote" />
+      <input
+        type="text"
+        placeholder="Enter a quote"
+        id="input-quote"
+        style="font-size: 1.2em; padding: 10px"
+      />
       <br />
       <label>Name</label>
-
+      <br />
       <div class="last-div">
-        <input type="text" placeholder="name" id="quotationist" />
+        <input
+          type="text"
+          placeholder="name"
+          id="quotationist"
+          style="font-size: 1.2em; padding: 10px"
+        />
         <button id="add_quote" onclick="addQuote()">Add Quote</button>
       </div>
     </div>

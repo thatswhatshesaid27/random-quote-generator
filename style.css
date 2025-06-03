@@ -131,6 +131,8 @@ nav button {
     border-radius: 10px;
     width: 30%;
 }
+
+
 /* MEDIA QUERY FOR MOBILE */
 @media (max-width: 768px) {
   nav.navbar {
